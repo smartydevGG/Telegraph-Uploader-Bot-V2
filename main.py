@@ -40,7 +40,7 @@ I am small media or file to telegra.ph link uploader bot.**
 
 >> `I can convert under 5MB photo or video to telegraph link.`
 
-Made by @Mo_Tech_YT"""
+Made by @Madhav_Smxrty """
 
 HELP_TEXT = """**Hey, Follow these steps:**
 
@@ -55,21 +55,17 @@ HELP_TEXT = """**Hey, Follow these steps:**
 /about - For more about me
 /status - For bot updates
 
-Made by @Mo_Tech_YT"""
+Made by @Madhav_Smxrty"""
 
 ABOUT_TEXT = """--**About Me**-- 😎
 
 🤖 **Name :** [Telegraph Uploader](https://telegram.me/{})
 
-👨‍💻 **Developer :** [Fayas](https://github.com/FayasNoushad)
+👨‍💻 **Editor :** [Madhav](https://github.com/smartydevGG)
 
-👨‍💻 **Editor :** [Muhammed](https://github.com/Mrk_yt)
+👥 **Group :** [Smartydev](https://telegram.me/alucardbotupdates)
 
-📢 **Channel :** [Mo Tech Channel](https://telegram.me/Mo_Tech_YT)
-
-👥 **Group :** [Mo Tech Group](https://telegram.me/Mo_Tech_Group)
-
-🌐 **Source :** [👉 Click here](https://github.com/MRK-YT/Telegraph-Uploader-Bot-V2)
+🌐 **Source :** [👉 Click here](https://github.com/smartydevGG/Source-Code)
 
 📝 **Language :** [Python3](https://python.org)
 
@@ -81,8 +77,6 @@ FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for us
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
-        ],[
         InlineKeyboardButton('⚙ Help', callback_data='help'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
         InlineKeyboardButton('Close ✖️', callback_data='close')
@@ -91,8 +85,6 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
-        ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
         InlineKeyboardButton('Close ✖️', callback_data='close')
@@ -101,8 +93,7 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
-        ],[
+     
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('Help ⚙', callback_data='help'),
         InlineKeyboardButton('Close ✖️', callback_data='close')
