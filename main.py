@@ -234,11 +234,9 @@ async def telegraph_upload(bot, update):
                     InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
                 [  
-                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/FayasNoushad")
-                ],
-                [
-                    InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50')
+                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/alucardbotupdates")
                 ]
+               
             ]
         )
     )
